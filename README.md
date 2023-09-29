@@ -15,17 +15,17 @@ The repository contains 5 different problems:
   - analytical solution provided in by Christophe Berthon, Stéphane Cordier, Minh H. Le, Olivier Delestre in https://arxiv.org/abs/1112.1582
 
 2. 1D_Transcritical_Inverse_Problem_n_initial_0_01
-   - Inverse PINN for a steady Transcritical problem where the manning's roughness coefficient 'n' is computed from the observed water depth and velocities
-   - benchmark problem available at:  https://www.idpoisson.fr/swashes/
+  - Inverse PINN for a steady Transcritical problem where the manning's roughness coefficient 'n' is computed from the observed water depth and velocities
+  - benchmark problem available at:  https://www.idpoisson.fr/swashes/
 
 3. 1D_supercritical_InverseProblem_C_initial_60
-   - Inverse PINN for a steady Supercritical problem where the Chezy's roughness coefficient 'C' is computed from the observed water depth and velocities
-   - benchmark problem available at:  https://www.idpoisson.fr/swashes/
+  - Inverse PINN for a steady Supercritical problem where the Chezy's roughness coefficient 'C' is computed from the observed water depth and velocities
+  - benchmark problem available at:  https://www.idpoisson.fr/swashes/
 
 4. UnsteadyErodableBump_NonScaled
-   - Forward PINN problem where neural network takes space and time co-ordinates and gives out water depth 'h', velocity 'u' and bottom topography 'z'
-   -  Problem statement: to solve the evolution of water depth, velocity and bottom topography with time for unsteady hydrodynamics condition
-   -  reference numerical solution provided by Stéphane Cordier, Minh H. Le, Tomas Morales de Luna at https://hal.science/hal-00536267v2/preview/cml.pdf
+  - Forward PINN problem where neural network takes space and time co-ordinates and gives out water depth 'h', velocity 'u' and bottom topography 'z'
+  -  Problem statement: to solve the evolution of water depth, velocity and bottom topography with time for unsteady hydrodynamics condition
+  -  reference numerical solution provided by Stéphane Cordier, Minh H. Le, Tomas Morales de Luna at https://hal.science/hal-00536267v2/preview/cml.pdf
 
 5. WetDomainDamBreak_Anchored_200x100
   - A classic dam break problem to benchmark numerical solutions for Shallow Water Equations
