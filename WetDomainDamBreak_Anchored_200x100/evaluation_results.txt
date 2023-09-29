@@ -1,0 +1,4 @@
+RMSE for water depth: 0.025463307145015577
+Nash-Sutcliffe Efficiency (NSE) for water depth: 0.9895957971907612
+RMSE for velocity: 0.11219233083555838
+Nash-Sutcliffe Efficiency (NSE) for velocity: 0.9393685905072289
