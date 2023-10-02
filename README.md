@@ -1,7 +1,7 @@
 # PINNs_For_ShallowWaterEquations
 This is a repository for my Master's Thesis "Physics Informed Neural Networks (PINNs) for Hydro-morphodynamic Modelling" at Chair of Hydraulics and Water Resources Engineering, TU Munich.
 
-The hydrodynamic processes in rivers and coastal regions are described by the infamous Shallow Water Equations, the depth averaged version of Navier Stokes Equations.
+The hydrodynamic processes in rivers and coastal regions are described by the Shallow Water Equations, the depth averaged version of Navier Stokes Equations.
 The morphodynamic processes  are described by the Exner Equation. It evaluates the change in bed level of rivers/coasts for given bed load flux rate.
 
 These Partial Differential Equations (PDEs) are often solved numerically using Finite Difference or Finite Volume Methods.
